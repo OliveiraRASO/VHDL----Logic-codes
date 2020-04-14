@@ -1,0 +1,65 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do MUX_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/15.0/PSD/TP1/MUX.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:51:49 on Apr 14,2020
+# vcom -reportprogress 300 -93 -work work C:/altera/15.0/PSD/TP1/MUX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX
+# -- Compiling architecture tp1 of MUX
+# ** Error: C:/altera/15.0/PSD/TP1/MUX.vhd(39): Statement is not explicitly labeled.
+# ** Error: C:/altera/15.0/PSD/TP1/MUX.vhd(40): VHDL Compiler exiting
+# End time: 13:51:49 on Apr 14,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./MUX_run_msim_rtl_vhdl.do line 8
+# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/altera/15.0/PSD/TP1/MUX.vhd}"
+vsim rtl_work.mux
+# vsim -gui "+altera" -l msim_transcript -do "MUX_run_msim_rtl_vhdl.do" 
+# Start time: 13:54:43 on Apr 14,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/15.0/PSD/TP1/simulation/modelsim/rtl_work.mux' has no architecture.
+# 
+# Error loading design
+vsim work.mux
+# vsim 
+# Start time: 13:55:11 on Apr 14,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/15.0/PSD/TP1/simulation/modelsim/rtl_work.mux' has no architecture.
+# 
+# Error loading design
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+wave create -pattern none -portmode in -language vhdl -range 5 0 /mux/a_IN
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# mux
+wave create -pattern none -portmode in -language vhdl -range 2 0 /mux/sel
+# mux
+wave create -pattern none -portmode in -language vhdl /mux/enable
+# mux
+wave create -pattern none -portmode in -language vhdl /mux/enable1
+# mux
+wave create -pattern none -portmode out -language vhdl /mux/b_OUT
+# mux
+vsim work.mux
+# vsim 
+# Start time: 13:55:51 on Apr 14,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/altera/15.0/PSD/TP1/simulation/modelsim/rtl_work.mux' has no architecture.
+# 
+# Error loading design

@@ -1,0 +1,15 @@
+-- aula 26/03/2020 PSD - Alarme
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity aulaPsdAlarme is
+	port (s0: IN std_logic;
+			s1: IN std_logic;
+			s2: IN std_logic;
+			s3: IN std_logic;
+			
+			s4: OUT std_logic;)
+			
+end aulaPsdAlarme;
+
