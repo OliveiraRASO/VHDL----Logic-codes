@@ -1,0 +1,18 @@
+--covid
+library ieee;
+use ieee.std_logic_1164.all;
+--sinais I/O
+entity covid is
+port(	a : in bit;
+		b : in bit;
+		c : in bit;
+		d : in bit;
+		led0 : out bit;
+		led1 : out bit;
+		led2 : out bit);
+end covid;
+architecture teste of covid is
+
+begin
+		led0 <= (not a not b not c not d);
+		led1 <= (a not b not c not d) and (not a and b not c not d) and (not a not b and c not d) and (not a not b not c and d)

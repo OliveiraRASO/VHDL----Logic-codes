@@ -1,0 +1,7 @@
+module mux(f, in0, in2, sel);
+	output f;
+	input in0, in1, sel;
+	
+	assign f = (in0 & ~sel) | (in1 & sel);
+	
+endmodule

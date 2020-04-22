@@ -55,8 +55,11 @@ set_global_assignment -name VHDL_FILE master_mind.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VHDL_FILE Beep.vhd
 set_global_assignment -name VHDL_FILE beep_clock.vhd
 set_global_assignment -name VHDL_FILE jogogalo.vhd
 set_global_assignment -name VHDL_FILE Tetris.vhd
+set_global_assignment -name VERILOG_FILE muv.v
+set_global_assignment -name VERILOG_FILE testbench_example.v
+set_global_assignment -name VHDL_FILE ADN.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

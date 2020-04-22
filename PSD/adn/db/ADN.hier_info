@@ -1,0 +1,14 @@
+|ADN
+a => b_out.IN0
+b => b_out.IN0
+c => b_out.IN0
+d => ~NO_FANOUT~
+e => ~NO_FANOUT~
+a2 => ~NO_FANOUT~
+b2 => ~NO_FANOUT~
+c2 => b_out.IN1
+d2 => b_out.IN1
+e2 => b_out.IN1
+b_out << b_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

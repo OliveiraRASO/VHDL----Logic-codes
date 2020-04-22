@@ -1,5 +1,5 @@
 Analysis & Synthesis report for aulaPsdAlarme
-Tue Mar 31 09:33:51 2020
+Tue Apr 21 21:59:11 2020
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 Patches 0.01we SJ Web Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                            ;
 +-----------------------------+-----------------------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Tue Mar 31 09:33:51 2020                         ;
+; Analysis & Synthesis Status ; Failed - Tue Apr 21 21:59:11 2020                         ;
 ; Quartus II 64-Bit Version   ; 15.0.0 Build 145 04/22/2015 Patches 0.01we SJ Web Edition ;
 ; Revision Name               ; aulaPsdAlarme                                             ;
 ; Top-level Entity Name       ; aulaPsdAlarme                                             ;
@@ -157,7 +157,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 15.0.0 Build 145 04/22/2015 Patches 0.01we SJ Web Edition
-    Info: Processing started: Tue Mar 31 09:33:27 2020
+    Info: Processing started: Tue Apr 21 21:58:41 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off aulaPsdAlarme -c aulaPsdAlarme
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Error (10500): VHDL syntax error at aulaPsdAlarme.vhd(16) near text "process";  expecting "begin", or a declaration statement File: C:/altera/15.0/PSD/aulaPsdAlarme.vhd Line: 16
@@ -166,15 +166,48 @@ Error (10500): VHDL syntax error at aulaPsdAlarme.vhd(20) near text "else";  exp
 Error (10500): VHDL syntax error at aulaPsdAlarme.vhd(22) near text "if";  expecting ";", or an identifier ("if" is a reserved keyword), or "architecture" File: C:/altera/15.0/PSD/aulaPsdAlarme.vhd Line: 22
 Info (12021): Found 0 design units, including 0 entities, in source file aulapsdalarme.vhd
 Error (10500): VHDL syntax error at master_mind.vhd(12) near text "process";  expecting "begin", or a declaration statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 12
-Error (10500): VHDL syntax error at master_mind.vhd(14) near text "and";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 14
-Error (10500): VHDL syntax error at master_mind.vhd(14) near text "THEN";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 14
+Error (10500): VHDL syntax error at master_mind.vhd(14) near text "then";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 14
 Error (10500): VHDL syntax error at master_mind.vhd(17) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 17
-Error (10500): VHDL syntax error at master_mind.vhd(20) near text "if";  expecting ";", or an identifier ("if" is a reserved keyword), or "architecture" File: C:/altera/15.0/PSD/master_mind.vhd Line: 20
+Error (10500): VHDL syntax error at master_mind.vhd(20) near text "if";  expecting "end", or "(", or an identifier ("if" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 20
+Error (10500): VHDL syntax error at master_mind.vhd(20) near text "then";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 20
+Error (10500): VHDL syntax error at master_mind.vhd(23) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 23
+Error (10500): VHDL syntax error at master_mind.vhd(26) near text "if";  expecting "end", or "(", or an identifier ("if" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 26
+Error (10500): VHDL syntax error at master_mind.vhd(26) near text "then";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 26
+Error (10500): VHDL syntax error at master_mind.vhd(29) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 29
+Error (10500): VHDL syntax error at master_mind.vhd(32) near text "if";  expecting "end", or "(", or an identifier ("if" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 32
+Error (10500): VHDL syntax error at master_mind.vhd(32) near text "then";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 32
+Error (10500): VHDL syntax error at master_mind.vhd(35) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 35
+Error (10500): VHDL syntax error at master_mind.vhd(38) near text "if";  expecting "end", or "(", or an identifier ("if" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 38
+Error (10500): VHDL syntax error at master_mind.vhd(38) near text "then";  expecting "<=" File: C:/altera/15.0/PSD/master_mind.vhd Line: 38
+Error (10500): VHDL syntax error at master_mind.vhd(41) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/master_mind.vhd Line: 41
+Error (10500): VHDL syntax error at master_mind.vhd(44) near text "if";  expecting ";", or an identifier ("if" is a reserved keyword), or "architecture" File: C:/altera/15.0/PSD/master_mind.vhd Line: 44
 Info (12021): Found 0 design units, including 0 entities, in source file master_mind.vhd
-Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 9 errors, 1 warning
-    Error: Peak virtual memory: 4888 megabytes
-    Error: Processing ended: Tue Mar 31 09:33:51 2020
-    Error: Elapsed time: 00:00:24
-    Error: Total CPU time (on all processors): 00:00:57
+Error (10500): VHDL syntax error at Beep.vhd(10) near text "process";  expecting "begin", or a declaration statement File: C:/altera/15.0/PSD/Beep.vhd Line: 10
+Error (10500): VHDL syntax error at Beep.vhd(12) near text "and";  expecting "<=" File: C:/altera/15.0/PSD/Beep.vhd Line: 12
+Error (10500): VHDL syntax error at Beep.vhd(12) near text ";";  expecting "<=" File: C:/altera/15.0/PSD/Beep.vhd Line: 12
+Error (10500): VHDL syntax error at Beep.vhd(14) near text "else";  expecting "end", or "(", or an identifier ("else" is a reserved keyword), or a concurrent statement File: C:/altera/15.0/PSD/Beep.vhd Line: 14
+Error (10500): VHDL syntax error at Beep.vhd(16) near text "if";  expecting ";", or an identifier ("if" is a reserved keyword), or "architecture" File: C:/altera/15.0/PSD/Beep.vhd Line: 16
+Info (12021): Found 0 design units, including 0 entities, in source file beep.vhd
+Error (10430): VHDL Primary Unit Declaration error at beep_clock.vhd(4): primary unit "Beep" already exists in library "work" File: C:/altera/15.0/PSD/beep_clock.vhd Line: 4
+Error (10784): HDL error at Beep.vhd(4): see declaration for object "Beep" File: C:/altera/15.0/PSD/Beep.vhd Line: 4
+Error (10500): VHDL syntax error at beep_clock.vhd(20) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/altera/15.0/PSD/beep_clock.vhd Line: 20
+Info (12021): Found 0 design units, including 0 entities, in source file beep_clock.vhd
+Error (10500): VHDL syntax error at jogogalo.vhd(5) near text "entity";  expecting "(", or "'", or "." File: C:/altera/15.0/PSD/jogogalo.vhd Line: 5
+Error (10500): VHDL syntax error at jogogalo.vhd(39) near text ";";  expecting "end", or "(", or an identifier, or a sequential statement File: C:/altera/15.0/PSD/jogogalo.vhd Line: 39
+Error (10500): VHDL syntax error at jogogalo.vhd(61) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/altera/15.0/PSD/jogogalo.vhd Line: 61
+Info (12021): Found 0 design units, including 0 entities, in source file jogogalo.vhd
+Error (10500): VHDL syntax error at Tetris.vhd(5) near text "entity";  expecting "(", or "'", or "." File: C:/altera/15.0/PSD/Tetris.vhd Line: 5
+Error (10500): VHDL syntax error at Tetris.vhd(20) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/altera/15.0/PSD/Tetris.vhd Line: 20
+Info (12021): Found 0 design units, including 0 entities, in source file tetris.vhd
+Warning (12019): Can't analyze file -- file muv.v is missing
+Warning (12019): Can't analyze file -- file testbench_example.v is missing
+Error (10500): VHDL syntax error at ADN.vhd(5) near text "is";  expecting an identifier File: C:/altera/15.0/PSD/ADN.vhd Line: 5
+Error (10500): VHDL syntax error at ADN.vhd(17) near text "end";  expecting "entity", or "architecture", or "use", or "library", or "package", or "configuration" File: C:/altera/15.0/PSD/ADN.vhd Line: 17
+Info (12021): Found 0 design units, including 0 entities, in source file adn.vhd
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 35 errors, 3 warnings
+    Error: Peak virtual memory: 4889 megabytes
+    Error: Processing ended: Tue Apr 21 21:59:11 2020
+    Error: Elapsed time: 00:00:30
+    Error: Total CPU time (on all processors): 00:01:01
 
 
