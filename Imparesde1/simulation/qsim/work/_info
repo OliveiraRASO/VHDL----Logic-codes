@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0/Imparesde1/simulation/qsim
+vimpares
+Z0 !s110 1588230205
+!i10b 1
+!s100 o`15c<L_zVMO=FljL>LzR0
+I1GeSG7e45<5V1<L=<eb[k2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dC:/altera/15.0/PSD/Imparesde1/simulation/qsim
+w1588230202
+8impares.vo
+Fimpares.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1588230205.090000
+!s107 impares.vo|
+!s90 -work|work|impares.vo|
+!i113 1
+Z4 o-work work
+vimpares_vlg_check_tst
+R0
+!i10b 1
+!s100 jKm2nbT]=ohJWz;BFP3?h3
+IU:J5H`W`zz0[mRXF:0NhV2
+R1
+R2
+Z5 w1588230198
+Z6 8Waveform.vwf.vt
+Z7 FWaveform.vwf.vt
+L0 64
+R3
+r1
+!s85 0
+31
+Z8 !s108 1588230205.334000
+Z9 !s107 Waveform.vwf.vt|
+Z10 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+vimpares_vlg_sample_tst
+R0
+!i10b 1
+!s100 g5KVVZJOb@S5K]51LIDFS3
+IEecg>?[D0AgH6L;C2lVP:3
+R1
+R2
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+vimpares_vlg_vec_tst
+R0
+!i10b 1
+!s100 QaHhHc_TFA6LOgUGgKjhZ0
+IH9oERMK:7U3Fa>JaDN@JS1
+R1
+R2
+R5
+R6
+R7
+L0 159
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
