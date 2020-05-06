@@ -1,0 +1,15 @@
+|mooremachine
+clk => estado~6.DATAIN
+reset => estado~8.DATAIN
+level => estado.OUTPUTSELECT
+level => estado.OUTPUTSELECT
+level => estado.OUTPUTSELECT
+level => estado.OUTPUTSELECT
+level => estado.OUTPUTSELECT
+level => prox_estado.A3_78.LATCH_ENABLE
+level => prox_estado.A4_72.LATCH_ENABLE
+level => prox_estado.A2_84.LATCH_ENABLE
+level => prox_estado.A1_90.LATCH_ENABLE
+level => prox_estado.A0_96.LATCH_ENABLE
+
+

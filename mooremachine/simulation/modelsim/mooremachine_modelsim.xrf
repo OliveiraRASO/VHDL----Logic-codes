@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/15.0/mooremachine/mooremachine.vhd
+source_file = 1, C:/altera/15.0/mooremachine/Waveform.vwf
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/altera/15.0/mooremachine/db/mooremachine.cbx.xml
+design_name = mooremachine
+instance = comp, \level~input\, level~input, mooremachine, 1
+instance = comp, \clk~input\, clk~input, mooremachine, 1
+instance = comp, \reset~input\, reset~input, mooremachine, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, mooremachine, 1

@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/15.0/mooremachine/simulation/qsim
+vmooremachine
+Z1 !s110 1588750740
+!i10b 1
+!s100 7CS2jgjJafJ[7a5zNa3d90
+I9kJ^RGKY>zA>_:GF=8F9G0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1588750731
+8mooremachine.vo
+Fmooremachine.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1588750740.046000
+!s107 mooremachine.vo|
+!s90 -work|work|mooremachine.vo|
+!i113 1
+Z4 o-work work
+vmooremachine_vlg_vec_tst
+R1
+!i10b 1
+!s100 HT0hUdc5Al4X;BfE37bU^2
+IZ?B>T2j]WNPfAP4W;n?i60
+R2
+R0
+w1588750723
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1588750740.509000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
