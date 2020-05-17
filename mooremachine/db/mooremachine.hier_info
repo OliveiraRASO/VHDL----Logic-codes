@@ -6,10 +6,16 @@ level => estado.OUTPUTSELECT
 level => estado.OUTPUTSELECT
 level => estado.OUTPUTSELECT
 level => estado.OUTPUTSELECT
-level => prox_estado.A3_78.LATCH_ENABLE
-level => prox_estado.A4_72.LATCH_ENABLE
-level => prox_estado.A2_84.LATCH_ENABLE
-level => prox_estado.A1_90.LATCH_ENABLE
-level => prox_estado.A0_96.LATCH_ENABLE
+level => saida[2]$latch.LATCH_ENABLE
+level => saida[1]$latch.LATCH_ENABLE
+level => saida[0]$latch.LATCH_ENABLE
+level => prox_estado.A4_100.LATCH_ENABLE
+level => prox_estado.A3_106.LATCH_ENABLE
+level => prox_estado.A2_112.LATCH_ENABLE
+level => prox_estado.A1_118.LATCH_ENABLE
+level => prox_estado.A0_124.LATCH_ENABLE
+saida[0] <= saida[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+saida[1] <= saida[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+saida[2] <= saida[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 
