@@ -15,13 +15,17 @@ port(	a: in std_logic;
 		e2: in std_logic;
 		b_out : out std_logic;
 		b2_out : out std_logic;
-		b3_out : out std_logic);
+		b3_out : out std_logic;
+		b4_out : out std_logic;
+		b5_out : out std_logic);
 		
 end ADN;
 architecture teste of ADN is
 	
 	begin
-			b_out <= (a and e2) or (b and d2) or (c and c2);
-			b2_out <= (a and e2);
-			b2_out <= (a and e2);
+			b_out  <= (a and a2);
+			b2_out <= (b and b2);
+			b3_out <= (c and c2);
+			b4_out <= (d and d2);
+			b5_out <= (e and e2);
 	end teste;

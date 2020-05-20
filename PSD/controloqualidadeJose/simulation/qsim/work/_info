@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/altera/15.0/PSD/controloqualidadeJose/simulation/qsim
+vcontjose
+!s110 1588271492
+!i10b 1
+!s100 VCR:lim8LRfUM[T@Z[M=50
+ICiXW82A?nbCV<^I`8Q^WD3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1588271489
+8contjose.vo
+Fcontjose.vo
+L0 32
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1588271492.679000
+!s107 contjose.vo|
+!s90 -work|work|contjose.vo|
+!i113 1
+Z3 o-work work
+vcontjose_vlg_check_tst
+Z4 !s110 1588271493
+!i10b 1
+!s100 g_UP4LfNcAAIi]ToM9;Ej2
+I0K63D__^X]=h31[B=:iQZ0
+R1
+R0
+Z5 w1588271483
+Z6 8Waveform.vwf.vt
+Z7 FWaveform.vwf.vt
+L0 60
+R2
+r1
+!s85 0
+31
+Z8 !s108 1588271492.962000
+Z9 !s107 Waveform.vwf.vt|
+Z10 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+vcontjose_vlg_sample_tst
+R4
+!i10b 1
+!s100 j91<mIg7Y[_I@604Ogm?[3
+IQo^mB[;c1gK7UJ=2LaFAc1
+R1
+R0
+R5
+R6
+R7
+L0 30
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+vcontjose_vlg_vec_tst
+R4
+!i10b 1
+!s100 K>hzz7I3T38?^?lLQHf7>0
+I5>EPUmzP@21P6A`mFzVj[3
+R1
+R0
+R5
+R6
+R7
+L0 155
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3

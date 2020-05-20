@@ -1,0 +1,9 @@
+-- exercicioMasterMind PSD
+library ieee;
+use iee.std_logic_1164.all;
+
+entity master_mind is;
+	port (pino0, pino1, pino2, pino3, pino4: IN std_logic
+			jogador2: OUT std_logic);
+			
+end master_mind;

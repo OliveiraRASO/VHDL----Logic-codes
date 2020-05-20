@@ -1,0 +1,78 @@
+$comment
+	File created using the following command:
+		vcd file contjose.msim.vcd -direction
+$end
+$date
+	Thu Apr 30 19:31:34 2020
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module contjose_vlg_vec_tst $end
+$var reg 8 ! corPrincipal [7:0] $end
+$var reg 8 " corProposta [7:0] $end
+$var wire 1 # saida $end
+$var wire 1 $ sampler $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + corProposta[0]~input_o $end
+$var wire 1 , corProposta[1]~input_o $end
+$var wire 1 - corProposta[2]~input_o $end
+$var wire 1 . corProposta[3]~input_o $end
+$var wire 1 / corProposta[4]~input_o $end
+$var wire 1 0 corProposta[5]~input_o $end
+$var wire 1 1 corProposta[6]~input_o $end
+$var wire 1 2 corProposta[7]~input_o $end
+$var wire 1 3 corPrincipal[0]~input_o $end
+$var wire 1 4 corPrincipal[1]~input_o $end
+$var wire 1 5 corPrincipal[2]~input_o $end
+$var wire 1 6 corPrincipal[3]~input_o $end
+$var wire 1 7 corPrincipal[4]~input_o $end
+$var wire 1 8 corPrincipal[5]~input_o $end
+$var wire 1 9 corPrincipal[6]~input_o $end
+$var wire 1 : corPrincipal[7]~input_o $end
+$var wire 1 ; ~QUARTUS_CREATED_GND~I_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11011111 !
+b11111111 "
+1#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+11
+12
+13
+14
+15
+16
+17
+08
+19
+1:
+0;
+$end
+#1000000
